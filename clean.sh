@@ -3,5 +3,5 @@
 #Author: Ryan Hamor
 
 cd `dirname $0`
-
-./buildroot/make distclean
+cd buildroot
+make distclean
